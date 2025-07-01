@@ -20,7 +20,7 @@ WebServer server(80);
 const int touchPin = 4;
 const int pinPloaie = 35;
 const int pinLDR = 34;
-const int pragPloaie = 2000;
+const int pragPloaie = 4000;
 const int pragNoapte = 1500;
 const int pragLuminaSlaba = 3000;
 
