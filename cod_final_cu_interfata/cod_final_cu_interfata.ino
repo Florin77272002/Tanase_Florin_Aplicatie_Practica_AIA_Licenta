@@ -66,7 +66,7 @@ void setup() {
     json += "\"umiditate\":" + String(h, 1) + ",";
     json += "\"presiune\":" + String(p, 0) + ",";
     json += "\"ploaie\":" + String(pl < pragPloaie ? "true" : "false") + ",";
-    json += "\"lumina\":" + String(lum > pragLuminaSlaba ? "true" : "false") + ",";
+    json += "\"lumina\":" + String(lum > pragNoapte ? "true" : "false") + ",";
     json += "\"ora\":\"" + zfill(now.hour()) + ":" + zfill(now.minute()) + "\"";
     json += "}";
     server.send(200, "application/json", json);
